@@ -6,11 +6,29 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
+body {
+    font-family: 'Nunito', sans-serif; /* Use Nunito font for the body */
+    background-color: cadetblue;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito', sans-serif; /* Use Nunito font for the body */
+}
+
+.text-muted.custom-body{
+    color: black;
+}
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: black;
 }
+
+/*About page contact*/
+.contact-info {
+    margin: 50px;
+}
+
 
 .btn-primary {
   color: #fff;
@@ -19,10 +37,15 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
+  color: black;
+  background-color: lightpink;
   border-color: #1861ac;
 }
+img {
+    margin: 0 auto; /* Set horizontal margins to auto to center the image */
+    display: block; /* Ensures that the image is treated as a block-level element */
+}
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -50,6 +73,7 @@ button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
